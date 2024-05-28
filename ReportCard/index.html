@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        
+        <span>Student Name :</span>
+        <input type="text">
+        <span>Redg No :</span>
+        <input type="text">
+        <span>Class :</span>
+        <select name="classes" id="">
+            <option value="">first</option>
+            <option value="">second</option>
+            <option value="">third</option>
+            <option value="">fourth</option>
+            <option value="">fifth</option>
+        </select>
+        <span>Gender :</span>
+        <label for="">Male</label>
+        <input type="radio" name="gender">
+        <label for="">Female</label>
+        <input type="radio" name="gender">
+
+    </header>
+    <main>
+
+        <div id="container">
+
+            <div id="table">
+                
+            <table>
+                <tr>
+                    <th>Test</th>
+                    <th>Telugu</th>
+                    <th>Hindi</th>
+                    <th>English</th>
+                    <th>Maths</th>
+                    <th>Science</th>
+                    <th>Social</th>
+                    <th>Total</th>
+                    <th>outOf</th>
+                    <th>Perc</th>
+                </tr>
+                <tr>
+                    <td><b>Unit1</b></td>
+                    <td><input type="text" id="u1t"></td>
+                    <td><input type="text" id="u1h"></td>
+                    <td><input type="text" id="u1e"></td>
+                    <td><input type="text" id="u1m"></td>
+                    <td><input type="text" id="u1sc"></td>
+                    <td><input type="text" id="u1so"></td>
+                    <td><input type="text" id="u1total" disabled class="calc"></td>
+                    <td><input type="text" class="uout_of calc" disabled></td>
+                    <td><input type="text" id="u1per" disabled class="calc"></td>
+                </tr>
+                <tr>
+                    <td><b>Quarterly</b></td>
+                    <td><input type="text" id="qt"></td>
+                    <td><input type="text" id="qh"></td>
+                    <td><input type="text" id="qe"></td>
+                    <td><input type="text" id="qm"></td>
+                    <td><input type="text" id="qsc"></td>
+                    <td><input type="text" id="qso"></td>
+                    <td><input type="text" id="qtotal" disabled class="calc"></td>
+                    <td><input type="text" class="mtotal calc" disabled></td>
+                    <td><input type="text" id="qper" disabled class="calc"></td>
+                </tr>
+                <tr>
+                    <td><b>Unit2</b></td>
+                    <td><input type="text" id="u2t"></td>
+                    <td><input type="text" id="u2h"></td>
+                    <td><input type="text" id="u2e"></td>
+                    <td><input type="text" id="u2m"></td>
+                    <td><input type="text" id="u2sc"></td>
+                    <td><input type="text" id="u2so"></td>
+                    <td><input type="text" id="u2total" disabled class="calc"></td>
+                    <td><input type="text" class="uout_of calc" disabled></td>
+                    <td><input type="text" id="u2per" disabled class="calc"></td>
+                </tr>
+                <tr>
+                    <td><b>Halfyearly</b></td>
+                    <td><input type="text" id="ht"></td>
+                    <td><input type="text" id="hh"></td>
+                    <td><input type="text" id="he"></td>
+                    <td><input type="text" id="hm"></td>
+                    <td><input type="text" id="hsc"></td>
+                    <td><input type="text" id="hso"></td>
+                    <td><input type="text" id="htotal" disabled class="calc"></td>
+                    <td><input type="text" class="mtotal calc" disabled></td>
+                    <td><input type="text" id="hper" disabled class="calc"></td>
+                </tr>
+                <tr>
+                    <td><b>unit3</b></td>
+                    <td><input type="text" id="u3t"></td>
+                    <td><input type="text" id="u3h"></td>
+                    <td><input type="text" id="u3e"></td>
+                    <td><input type="text" id="u3m"></td>
+                    <td><input type="text" id="u3sc"></td>
+                    <td><input type="text" id="u3so"></td>
+                    <td><input type="text" id="u3total" disabled class="calc"></td>
+                    <td><input type="text" class="uout_of calc" disabled></td>
+                    <td><input type="text" id="u3per" disabled class="calc"></td>
+                </tr>
+                <tr>
+                    <td><b>Annully</b></td>
+                    <td><input type="text" id="at"></td>
+                    <td><input type="text" id="ah"></td>
+                    <td><input type="text" id="ae"></td>
+                    <td><input type="text" id="am"></td>
+                    <td><input type="text" id="asc"></td>
+                    <td><input type="text" id="aso"></td>
+                    <td><input type="text" id="atotal" disabled class="calc"></td>
+                    <td><input type="text" class="mtotal calc" disabled></td>
+                    <td><input type="text" id="aper" disabled class="calc"></td>
+                </tr>
+            </table>
+            </div>
+
+            <div id="submit">
+                <input type="submit" value="Submit" onclick="calc_fun()">
+            </div>
+
+        </div>
+
+    </main>
+    <footer>
+        <span>education @2024</span>
+    </footer>
+</body>
+</html>
